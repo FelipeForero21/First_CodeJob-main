@@ -18,7 +18,7 @@
     height: 101px;
     position: fixed;
     margin-bottom: 210px;
-    background-image: url(/img/banner.jpg);
+    background-image: url(./img/banner.jpg);
     background-position: 0px -630px;
     background-repeat: no-repeat;
     background-size: cover;
