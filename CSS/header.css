@@ -18,7 +18,7 @@
     height: 101px;
     position: fixed;
     margin-bottom: 210px;
-    background-image: url(./img/banner.jpg);
+    background-image: url(../img/banner.jpg);
     background-position: 0px -630px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -75,7 +75,7 @@
     align-items:center;
     width: 100%;
     height: 130px;
-    background-image: url(/img/banner.jpg);
+    background-image: url(../img/banner.jpg);
     background-position: 0px -720px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -143,13 +143,13 @@
 /* RESPONSIVE */
 @media screen and (max-width: 1800px){
     .header_container{
-        background-image: url(/img/banner.jpg);
+        background-image: url(../img/banner.jpg);
         background-position: 0px -911px;
         background-repeat: no-repeat;
         background-size:auto;
     }
     .container_list{
-        background-image: url(/img/banner.jpg);
+        background-image: url(../img/banner.jpg);
         background-position: 0px -1000px;
         background-repeat: no-repeat;
         background-size:auto;
@@ -166,7 +166,7 @@
         height: 80px;
         position: fixed;
         margin-bottom: 210px;
-        background-image: url(/img/banner.jpg);
+        background-image: url(../img/banner.jpg);
         background-position: -600px -200px;
         background-repeat: no-repeat;
         background-size:auto;
@@ -245,13 +245,13 @@
         place-items: center;
         width: 3rem;
         height: 5rem;
-        background-image: url("/img/menu.svg");
+        background-image: url("../img/menu.svg");
         background-repeat: no-repeat;
         background-position: center;
     }
 
     body.open .burger {
-        background-image: url("/img/close.svg");
+        background-image: url("../img/close.svg");
     }
 
     .background {
